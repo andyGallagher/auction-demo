@@ -1,0 +1,9 @@
+dist
+node_modules
+.cache
+.env
+.env.*
+Archive.zip
+build
+.DS_Store
+.vscode

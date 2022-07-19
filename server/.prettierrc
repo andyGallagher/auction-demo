@@ -1,0 +1,9 @@
+{
+	"printWidth": 80,
+	"singleQuote": false,
+	"jsx-single-quote": true,
+	"trailingComma": "es5",
+	"tabWidth": 4,
+	"useTabs": true,
+	"importOrder": ["^module-alias(.*)$", "<THIRD_PARTY_MODULES>", "^@/(.*)$"]
+}
