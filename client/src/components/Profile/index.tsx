@@ -15,7 +15,6 @@ export const Profile: React.FC = () => {
 		variables: {
 			input: {
 				condition: {
-					// # TODO => replace this
 					ownerAddress: auth.user?.address ?? "0x0",
 				},
 			},

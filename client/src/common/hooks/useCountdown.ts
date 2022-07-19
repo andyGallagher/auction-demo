@@ -36,15 +36,11 @@ export const useCountdown = (start: string) => {
 		}
 
 		then.setDate(then.getDate() + 1);
-		// then.setHours(then.getHours() + 1);
 
 		if (start) {
 			setInterval(() => {
 				const now = new Date();
 				const diff = then.valueOf() - now.valueOf();
-
-				// console.log(now.valueOf());
-				// console.log(then.valueOf());
 
 				setIsCountdownComplete(diff < 0);
 

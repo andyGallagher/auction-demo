@@ -24,10 +24,6 @@ export const Paintings = () => {
 		},
 	});
 
-	console.log({
-		paintings,
-	});
-
 	useEffect(() => {
 		setActiveImage((activeImage) => {
 			if (activeImage) {
@@ -57,7 +53,6 @@ export const Paintings = () => {
 					{paintings.map((painting, row) => (
 						<S.Reflection
 							key={row}
-							// index={column * 10 + row}
 							painting={painting}
 							{...onClickAndEnterKey(() =>
 								setActiveImage(painting)
